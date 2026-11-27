@@ -4,7 +4,7 @@
 int find_max(const int arr[], int size) {
     int max = arr[0];  // перший елемент масиву
     for (int i = 1; i < size; i++) {
-        if (arr[i] > max) {
+                if (arr[i] < max) {
             max = arr[i];  // оновлюємо максимум
         }
     }
